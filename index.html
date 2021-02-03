@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        th,
+        td {
+          border: 1px solid black;
+          border-collapse: collapse;
+        }
+      </style>
+</head>
+<body>
+    <form method="GET"></form>
+    
+      <!-- username -->
+      <label for="username">Username:</label><br />
+      <input type="username" name="username" id="usernme" placeholder="Username" maxlength="30" required /><br />
+      <!-- password -->
+      <label for="pass">Password:</label><br />
+      <input type="password" name="pass" id="pass" placeholder="Password"  required/><br /><br />
+      <hr>
+      <!-- email -->
+      <label for="epocht">Email:</label><br />
+      <input type="email" name="email" id="epocht" required/><br /><br />
+      <hr>
+      <!-- mobile -->
+      <label for="mobile">Mobile:</label><br />
+      <label for="mobile">+994</label>
+      <input type="mobile" name="mobile" id="number" placeholder="50-311-11-52"   required/><br /><br />
+      <hr>
+      <!-- radio Family status-->
+      <label for="mobile">Family status:</label><br />
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="male">Male</label><br>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Female</label><br>
+      <input type="radio" id="other" name="gender" value="other">
+      <label for="other">Other</label><br/><br/>
+      <hr>
+      <!-- checkbox -->
+      <label for="qaydalar ile tanis oldum ve razi oldum"> Qaydalar ile tanis oldum ve razi oldum :</label>
+      <input type="checkbox" name="qaydalar ile tanis oldum " value="qaydalar ile tanis oldum" id="qaydalar ile tanis oldum" /><br />
+      <br />
+      <hr>
+      <!-- select -->
+      <label for="Tehsil"> Tehsil derecesi:</label><br />
+      <select name="tehsil" id="tehsil">
+        <option value="choose" disabled>Tehsili secin</option>
+        <option value="az">Ali</option>
+        <option value="en" selected>Orta</option><br />
+        <br />
+        <hr />
+      <!-- input btns -->
+      <input type="submit" />
+      <input type="reset" />   
+    </form> 
+</body>
+</html>
